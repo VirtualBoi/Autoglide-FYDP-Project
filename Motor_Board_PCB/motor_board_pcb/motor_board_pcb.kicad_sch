@@ -1180,6 +1180,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 02bbc0eb-cab8-4de8-9d56-66bee9efb64f)
   )
+  (text "balls" (at 184.15 176.53 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cb0e0bf1-796e-492a-bd74-7cdb310e723d)
+  )
 
   (label "SOF" (at 33.02 87.63 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
