@@ -42,14 +42,14 @@
     )
   )
 
-  (sheet (at 203.2 45.72) (size 52.07 26.67) (fields_autoplaced)
+  (sheet (at 204.47 71.12) (size 52.07 26.67) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid b57f9924-5c2c-40da-8939-31af087f9aa3)
-    (property "Sheetname" "Motor_Driver" (at 203.2 45.0084 0)
+    (property "Sheetname" "Motor_Driver" (at 204.47 70.4084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Motor_Driver_Sheet.kicad_sch" (at 203.2 72.9746 0)
+    (property "Sheetfile" "Motor_Driver_Sheet.kicad_sch" (at 204.47 98.3746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
