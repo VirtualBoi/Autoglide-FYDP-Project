@@ -326,6 +326,18 @@
     [
       "4ad82a24-c992-45c9-b523-12e12bcd6ced",
       ""
+    ],
+    [
+      "677bf49c-46b9-40dd-b186-394fb8d84e12",
+      "MCU"
+    ],
+    [
+      "63c66207-e5d4-4f6f-af8f-451675dc3930",
+      "CAN"
+    ],
+    [
+      "b57f9924-5c2c-40da-8939-31af087f9aa3",
+      "Motor_Driver"
     ]
   ],
   "text_variables": {}
