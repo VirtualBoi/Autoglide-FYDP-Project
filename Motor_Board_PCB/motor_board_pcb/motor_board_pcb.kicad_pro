@@ -338,6 +338,10 @@
     [
       "b57f9924-5c2c-40da-8939-31af087f9aa3",
       "Motor_Driver"
+    ],
+    [
+      "8b03500d-82ba-403b-affc-552426d5b4ea",
+      "Power"
     ]
   ],
   "text_variables": {}
