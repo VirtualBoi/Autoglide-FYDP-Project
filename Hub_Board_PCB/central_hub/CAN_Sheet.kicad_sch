@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 107ab063-ec8f-4e38-bdd9-7df44a3dbf9b)
+  (uuid cc6d6922-0a80-4fe0-8838-44ade1910106)
 
   (paper "A4")
 
@@ -1334,6 +1334,11 @@
     (pin "1" (uuid f5d4848a-3cf6-4796-a7bc-fa7a577798a0))
     (pin "2" (uuid 814a351e-d7c0-42f2-a66e-235662b763b4))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "C2") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "C2") (unit 1)
@@ -1391,6 +1396,11 @@
     (pin "1" (uuid d6b7c2ed-996a-4750-aaa6-c3355fb62ac8))
     (pin "2" (uuid 3ce98adf-e9d3-4db6-b2fe-152de6f8e78e))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "C1") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "C1") (unit 1)
@@ -1420,6 +1430,11 @@
     (pin "1" (uuid 74c607b0-1f15-4250-941b-721f9a24ef75))
     (pin "2" (uuid aaa55e2c-9334-4eb7-a93d-98d4bfde52e5))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "D3") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "D3") (unit 1)
@@ -1449,6 +1464,11 @@
     (pin "1" (uuid eb6a1322-52ee-49fb-96a2-2deee4904c2b))
     (pin "2" (uuid aa6a42a3-9a55-4c60-a86a-2943f35e15d2))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "Y1") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "Y1") (unit 1)
@@ -1534,6 +1554,11 @@
     (pin "1" (uuid 63a0b37e-9297-49e7-950d-fe295d48a8c8))
     (pin "2" (uuid ca4651bc-a185-4645-9c76-0cbfe3285ca1))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "C3") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "C3") (unit 1)
@@ -1563,6 +1588,11 @@
     (pin "1" (uuid 1e9dcb0e-650f-408a-9ac7-ffcb75de494e))
     (pin "2" (uuid 948082ae-ff8a-468b-ba67-982ebdc8ec40))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "D2") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "D2") (unit 1)
@@ -1620,6 +1650,11 @@
     (pin "1" (uuid d842db6c-aee1-4b6d-ad51-ce30af1b4710))
     (pin "2" (uuid 78674004-230f-4adf-9606-b84335d82d77))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "R2") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "R2") (unit 1)
@@ -1733,6 +1768,11 @@
     (pin "1" (uuid 84deafd0-4f97-4d5c-8556-d9d1cd35da55))
     (pin "2" (uuid a822b40d-e723-41af-b4ad-7271d9d5e39f))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "R3") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "R3") (unit 1)
@@ -1762,6 +1802,11 @@
     (pin "1" (uuid c0407d15-1c44-49ef-b142-2fbd6f5af449))
     (pin "2" (uuid a420448b-a7fb-45fd-98e0-f60aec347981))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "C4") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "C4") (unit 1)
@@ -1791,6 +1836,11 @@
     (pin "1" (uuid a767fc22-0f20-45d9-b75b-d7ce4f7a33e0))
     (pin "2" (uuid 85677f71-59c1-404e-bbde-e3e8a8bbecee))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "J6") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/63c66207-e5d4-4f6f-af8f-451675dc3930"
           (reference "J6") (unit 1)
@@ -1817,6 +1867,11 @@
     (pin "1" (uuid 6acb838d-6b15-46b9-9bb6-ac952812b59a))
     (pin "2" (uuid 7f8bc8f0-8987-434a-b651-35dce40957c1))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "R1") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "R1") (unit 1)
@@ -1876,6 +1931,11 @@
     (pin "7" (uuid 84408f9c-f5e9-4b89-92b1-8014d7c42f86))
     (pin "8" (uuid ea33ca3b-fb0e-4a8b-8eda-c2c58a43bae3))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "U2") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "U2") (unit 1)
@@ -1923,6 +1983,11 @@
     (pin "8" (uuid b27e4cf7-4c48-4478-a766-961a3cee3dce))
     (pin "9" (uuid 9619c250-dab9-47d2-9032-7f29e4f03c01))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "U1") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "U1") (unit 1)
@@ -2005,6 +2070,11 @@
     (pin "2" (uuid 92c4b655-c7ac-416c-ab71-217694c81ec2))
     (pin "3" (uuid 45af1f04-f2b4-4c0d-9882-8c372a9d6e1d))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "D1") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "D1") (unit 1)
