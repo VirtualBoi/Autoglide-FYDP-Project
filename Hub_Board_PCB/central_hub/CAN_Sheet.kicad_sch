@@ -1305,6 +1305,11 @@
     )
     (pin "1" (uuid 4c800828-757d-4dad-b463-25c89dcd6c69))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "#PWR05") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "#PWR05") (unit 1)
@@ -1367,6 +1372,11 @@
     )
     (pin "1" (uuid 9b44bab4-d164-4e1c-a7ac-661b4ee86f4e))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "#PWR01") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "#PWR01") (unit 1)
@@ -1497,6 +1507,11 @@
     )
     (pin "1" (uuid fe85afab-b2f1-48ee-a7fa-9fbcaca848dd))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "#PWR06") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "#PWR06") (unit 1)
@@ -1525,6 +1540,11 @@
     )
     (pin "1" (uuid a623fb9f-e049-49c7-8647-76a03f5b4ba5))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "#PWR02") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "#PWR02") (unit 1)
@@ -1621,6 +1641,11 @@
     )
     (pin "1" (uuid 70e687dd-9b4e-4ff0-94e9-e735f4f62a13))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "#PWR03") (unit 1)
@@ -1683,6 +1708,11 @@
     )
     (pin "1" (uuid a33e094f-2978-4191-8207-3b67b577bbd7))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "#PWR08") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "#PWR08") (unit 1)
@@ -1711,6 +1741,11 @@
     )
     (pin "1" (uuid 930e0add-7826-4e52-bab4-6cfe00ac4b84))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "#PWR07") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "#PWR07") (unit 1)
@@ -1739,6 +1774,11 @@
     )
     (pin "1" (uuid 4f5ac8f2-819c-4f07-8b09-8d39083a4b74))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "#PWR09") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "#PWR09") (unit 1)
@@ -2016,6 +2056,11 @@
     )
     (pin "1" (uuid 31fd6f62-289b-4c56-b1c3-24a089eecd5e))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "#PWR010") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "#PWR010") (unit 1)
@@ -2103,6 +2148,11 @@
     )
     (pin "1" (uuid f0138a5a-4208-4cd2-932c-b6d5bdc0b377))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/a9a7affa-d8a7-4dcd-8fe3-0de6a2b29bd6"
+          (reference "#PWR04") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced"
           (reference "#PWR04") (unit 1)

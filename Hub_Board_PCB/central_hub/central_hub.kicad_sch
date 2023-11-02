@@ -59,6 +59,23 @@
     )
   )
 
+  (sheet (at 308.61 30.48) (size 39.37 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8e53aed1-21e6-440d-aae4-1b5509ec346a)
+    (property "Sheetname" "Connectors" (at 308.61 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Connectors.kicad_sch" (at 308.61 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 243.84 83.82) (size 39.37 41.91) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

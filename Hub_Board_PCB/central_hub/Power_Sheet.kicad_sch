@@ -484,6 +484,71 @@
         )
       )
     )
+    (symbol "Diode:PMEG6020AELR" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "PMEG6020AELR" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6020AELR.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "ir diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "60V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Nexperia*CFP3*SOD?123W*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PMEG6020AELR_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 -0.635)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "PMEG6020AELR_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Diode:SMAJ18CA" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -660,6 +725,52 @@
         (pin passive line (at 10.16 0 180) (length 2.54)
           (name "BST" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "VUSB:VUSB" (power) (in_bom no) (on_board no)
+      (property "Reference" "#PWR" (at 6.35 -8.89 0) (do_not_autoplace)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VUSB" (at 6.35 -1.27 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VUSB_0_1"
+        (polyline
+          (pts
+            (xy 5.588 -5.08)
+            (xy 6.35 -3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 -6.35)
+            (xy 6.35 -3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 -3.81)
+            (xy 7.112 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VUSB_1_1"
+        (pin power_in line (at 6.35 -6.35 90) (length 0) hide
+          (name "VUSB" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -995,17 +1106,17 @@
   (junction (at 48.26 132.08) (diameter 0) (color 0 0 0 0)
     (uuid 6f6d8a3f-15b7-4de4-9bd7-569107efc4ad)
   )
+  (junction (at 116.84 88.9) (diameter 0) (color 0 0 0 0)
+    (uuid 91ee8293-3af5-4930-a1a4-4940a0518c2d)
+  )
   (junction (at 110.49 101.6) (diameter 0) (color 0 0 0 0)
     (uuid 94f6ad0a-1c3e-4846-ad88-4a99ecb3c8ae)
   )
-  (junction (at 116.84 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid b7074af8-f183-424c-b6f3-0c7c91f8ee13)
+  (junction (at 104.14 88.9) (diameter 0) (color 0 0 0 0)
+    (uuid acc26bd3-ce8e-413c-9b61-9b9e99006678)
   )
   (junction (at 95.25 58.42) (diameter 0) (color 0 0 0 0)
     (uuid d8aefabe-e4ea-4448-befd-8e8653a10f15)
-  )
-  (junction (at 104.14 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid e1383511-f1c1-4ec9-9bfe-81bc271431a6)
   )
   (junction (at 68.58 132.08) (diameter 0) (color 0 0 0 0)
     (uuid fda05f18-d50b-4191-ad40-f6acb7648846)
@@ -1035,6 +1146,10 @@
     (stroke (width 0) (type default))
     (uuid 2016c4e4-337c-4796-8bef-922f40a8e652)
   )
+  (wire (pts (xy 116.84 86.36) (xy 116.84 88.9))
+    (stroke (width 0) (type default))
+    (uuid 21300101-c3f7-45db-a075-325319c48314)
+  )
   (wire (pts (xy 128.27 58.42) (xy 124.46 58.42))
     (stroke (width 0) (type default))
     (uuid 23008c88-ca64-4f7a-ad67-643edb220701)
@@ -1059,6 +1174,10 @@
     (stroke (width 0) (type default))
     (uuid 40a9bb27-d79b-448d-89cd-14814430491b)
   )
+  (wire (pts (xy 116.84 88.9) (xy 116.84 91.44))
+    (stroke (width 0) (type default))
+    (uuid 47c0aee7-b28e-43a5-8d90-f8f81b8287aa)
+  )
   (wire (pts (xy 40.64 99.06) (xy 40.64 101.6))
     (stroke (width 0) (type default))
     (uuid 4d029e17-1a21-4a38-91f8-3937527e5d86)
@@ -1066,6 +1185,10 @@
   (wire (pts (xy 95.25 48.26) (xy 104.14 48.26))
     (stroke (width 0) (type default))
     (uuid 4d2301be-07d2-4e79-9219-f2a7e8e80df3)
+  )
+  (wire (pts (xy 104.14 88.9) (xy 116.84 88.9))
+    (stroke (width 0) (type default))
+    (uuid 4e29a503-5dab-4077-9ba1-56d54fa41af9)
   )
   (wire (pts (xy 95.25 48.26) (xy 95.25 49.53))
     (stroke (width 0) (type default))
@@ -1094,6 +1217,10 @@
   (wire (pts (xy 49.53 48.26) (xy 52.07 48.26))
     (stroke (width 0) (type default))
     (uuid 65d2ccf5-33a4-41ff-a9bb-0ea71868cdde)
+  )
+  (wire (pts (xy 116.84 88.9) (xy 119.38 88.9))
+    (stroke (width 0) (type default))
+    (uuid 68515b3c-662e-4c68-a9bc-d7a6eac7c574)
   )
   (wire (pts (xy 104.14 99.06) (xy 104.14 101.6))
     (stroke (width 0) (type default))
@@ -1163,10 +1290,6 @@
     (stroke (width 0) (type default))
     (uuid a770d13f-fb67-4362-800f-83d6a1b329c6)
   )
-  (wire (pts (xy 104.14 88.9) (xy 116.84 88.9))
-    (stroke (width 0) (type default))
-    (uuid a77ba339-7edf-4b33-8c5e-32ff54d0a61f)
-  )
   (wire (pts (xy 48.26 134.62) (xy 49.53 134.62))
     (stroke (width 0) (type default))
     (uuid a7e29c03-6c18-4ec5-92f5-0a81d475860d)
@@ -1174,10 +1297,6 @@
   (wire (pts (xy 68.58 129.54) (xy 68.58 132.08))
     (stroke (width 0) (type default))
     (uuid aaded5b2-4ee5-4eec-b22a-9d9935bb930b)
-  )
-  (wire (pts (xy 116.84 91.44) (xy 116.84 88.9))
-    (stroke (width 0) (type default))
-    (uuid abaec8cb-60fe-4d57-a63c-f80303e13307)
   )
   (wire (pts (xy 128.27 57.15) (xy 128.27 58.42))
     (stroke (width 0) (type default))
@@ -1203,6 +1322,10 @@
     (stroke (width 0) (type default))
     (uuid bfd1cc4a-d901-423c-a7b4-bffc203bbf1c)
   )
+  (wire (pts (xy 116.84 77.47) (xy 116.84 78.74))
+    (stroke (width 0) (type default))
+    (uuid c0b4c483-b621-4e02-9911-99e972dc7822)
+  )
   (wire (pts (xy 73.66 57.15) (xy 73.66 58.42))
     (stroke (width 0) (type default))
     (uuid c640aa46-2cef-4e07-91c3-cbf2eeaca392)
@@ -1227,10 +1350,6 @@
     (stroke (width 0) (type default))
     (uuid e63e40fd-8801-4538-96d7-8d0019fc85a4)
   )
-  (wire (pts (xy 116.84 86.36) (xy 116.84 88.9))
-    (stroke (width 0) (type default))
-    (uuid ec78bf14-3cfb-4d9b-bb7a-e96489f3cb9f)
-  )
   (wire (pts (xy 50.8 88.9) (xy 50.8 93.98))
     (stroke (width 0) (type default))
     (uuid f196ec2b-8f3c-4efe-8730-0f9d94cd244f)
@@ -1248,6 +1367,21 @@
     (uuid fe494036-7be7-4c9c-aa8d-001d218dc38f)
   )
 
+  (text_box "Include 2-pin header or switch?"
+    (at 142.24 73.66 0) (size 17.78 8.89)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid bd1ab1f5-8a78-4597-ad77-5a631f504585)
+  )
+  (text_box "DNP diode so that USB doesn't power PCB?"
+    (at 123.19 73.66 0) (size 17.78 8.89)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid c35d0e20-e372-4d98-8355-e31b6fed2b99)
+  )
+
   (text "5V Regulator\n" (at 38.1 77.47 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 2a22aae9-8784-4eb8-9f36-8cdc4f61404d)
@@ -1259,6 +1393,10 @@
   (text "Power Filtering" (at 35.56 36.83 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid b32b28cc-ea25-436b-888a-db132d8a3606)
+  )
+  (text "SCHOTTKY FOR\nUSB OVERVOLTAGE\nPROTECTION" (at 95.25 78.74 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid d3fc6a69-c148-426b-a32c-0d8d7ee9948b)
   )
 
   (symbol (lib_id "power:GND") (at 63.5 100.33 0) (unit 1)
@@ -1278,6 +1416,11 @@
     )
     (pin "1" (uuid 7f35ef05-8b23-4ca7-8987-e762fabe3f38))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR060") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR060") (unit 1)
@@ -1344,6 +1487,11 @@
     )
     (pin "1" (uuid 2cdf7cd5-2206-4a3d-ad86-26297d2987df))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR057") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR057") (unit 1)
@@ -1410,6 +1558,11 @@
     )
     (pin "1" (uuid 799be2ff-3be5-44cf-8bc3-551c592ae6dc))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR042") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR042") (unit 1)
@@ -1440,6 +1593,11 @@
     )
     (pin "1" (uuid cfdac3f4-b90e-4c6e-97bc-94a79c16e6bb))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR041") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR041") (unit 1)
@@ -1470,6 +1628,11 @@
     )
     (pin "1" (uuid 4411e0fa-a504-4781-abb8-2300e401c430))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR068") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR068") (unit 1)
@@ -1555,6 +1718,37 @@
     )
   )
 
+  (symbol (lib_id "VUSB:VUSB") (at 110.49 71.12 0) (unit 1)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
+    (uuid 3c276724-e128-419d-a8c3-808da5772562)
+    (property "Reference" "#PWR037" (at 116.84 80.01 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VUSB" (at 116.84 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 110.49 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 110.49 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 53fc93c9-fe0e-493c-9e3a-cad0ea204b2b))
+    (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b"
+          (reference "#PWR037") (unit 1)
+        )
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/4fb60496-ee10-4e45-a75e-a49c2c8afc68"
+          (reference "#PWR0117") (unit 1)
+        )
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:-BATT") (at 52.07 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54663822-71bc-4a52-969f-9f49b63ae732)
@@ -1572,6 +1766,11 @@
     )
     (pin "1" (uuid bb94a299-3a21-435e-98d1-f3669fe62fd2))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR058") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR058") (unit 1)
@@ -1602,6 +1801,11 @@
     )
     (pin "1" (uuid 1bf58210-21d7-4570-b1b1-822c0a9409b2))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR070") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR070") (unit 1)
@@ -1671,6 +1875,11 @@
     )
     (pin "1" (uuid 75d4d34e-7fdc-48cb-a2e3-46e456f5d6d8))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR062") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR062") (unit 1)
@@ -1751,6 +1960,38 @@
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
           (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:PMEG6020AELR") (at 116.84 82.55 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp yes)
+    (uuid 8f143370-784b-4aaa-ac9c-a2a87d63ddc7)
+    (property "Reference" "D4" (at 111.76 81.28 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PMEG6020AELRX" (at 105.41 83.82 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W" (at 121.285 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6020AELR.pdf" (at 116.84 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 01eaeeb8-5805-413c-9df5-a9eecffb861e))
+    (pin "2" (uuid 681717a2-3788-43ca-9efd-86cd7a86f5cd))
+    (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b"
+          (reference "D4") (unit 1)
+        )
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/4fb60496-ee10-4e45-a75e-a49c2c8afc68"
+          (reference "D10") (unit 1)
+        )
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -1850,6 +2091,11 @@
     )
     (pin "1" (uuid 1734e3a6-f28e-4856-9ef7-ecbd8a46ca66))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR059") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR059") (unit 1)
@@ -1936,23 +2182,28 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 116.84 86.36 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 119.38 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97376f9b-6caa-4a66-8e62-cde5baec7ced)
-    (property "Reference" "#PWR069" (at 116.84 90.17 0)
+    (property "Reference" "#PWR069" (at 115.57 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 116.84 81.28 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "+5V" (at 123.19 88.9 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 116.84 86.36 0)
+    (property "Footprint" "" (at 119.38 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 116.84 86.36 0)
+    (property "Datasheet" "" (at 119.38 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e1ff836b-89e3-4e2b-8cd2-2dba8a9d9f8e))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR069") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR069") (unit 1)
@@ -2059,6 +2310,11 @@
     )
     (pin "1" (uuid d27c6051-1603-4462-be0d-4ff719f4b386))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR061") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR061") (unit 1)
@@ -2161,6 +2417,11 @@
     )
     (pin "1" (uuid ef8d9094-f222-4554-998a-2b3f974f3df4))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR055") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR055") (unit 1)
@@ -2227,6 +2488,11 @@
     )
     (pin "1" (uuid 7b394ad7-c741-49af-b8a4-4309db015dd4))
     (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "#PWR056") (unit 1)
+        )
+      )
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
           (reference "#PWR056") (unit 1)
