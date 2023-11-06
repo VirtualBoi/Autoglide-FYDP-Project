@@ -365,7 +365,7 @@
     (property "Value" "5.1k" (at 129.54 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 125.222 87.63 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 125.222 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 87.63 0)
@@ -382,7 +382,7 @@
           (reference "R32") (unit 1)
         )
         (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/406a2e52-8680-458b-82c4-a5b80d2a411b"
-          (reference "R2") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -413,7 +413,7 @@
           (reference "#PWR0119") (unit 1)
         )
         (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/406a2e52-8680-458b-82c4-a5b80d2a411b"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -428,7 +428,7 @@
     (property "Value" "5.1k" (at 119.38 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 115.062 87.63 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 115.062 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 87.63 0)
@@ -445,7 +445,7 @@
           (reference "R31") (unit 1)
         )
         (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/406a2e52-8680-458b-82c4-a5b80d2a411b"
-          (reference "R1") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -476,7 +476,7 @@
           (reference "#PWR0115") (unit 1)
         )
         (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/406a2e52-8680-458b-82c4-a5b80d2a411b"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -507,7 +507,7 @@
           (reference "#PWR0120") (unit 1)
         )
         (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/406a2e52-8680-458b-82c4-a5b80d2a411b"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -538,7 +538,7 @@
           (reference "#PWR0114") (unit 1)
         )
         (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/406a2e52-8680-458b-82c4-a5b80d2a411b"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -592,7 +592,7 @@
           (reference "U6") (unit 1)
         )
         (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/406a2e52-8680-458b-82c4-a5b80d2a411b"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )

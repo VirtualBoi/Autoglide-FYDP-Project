@@ -1264,7 +1264,7 @@
   (symbol (lib_id "power:GND") (at 63.5 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00ad3eed-707c-45ff-8be9-00f6fdde79a5)
-    (property "Reference" "#PWR060" (at 63.5 106.68 0)
+    (property "Reference" "#PWR063" (at 63.5 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 105.41 0)
@@ -1280,12 +1280,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1294,13 +1294,13 @@
   (symbol (lib_id "Device:C") (at 116.84 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 078c29f4-fb80-44b4-85d9-6b05f5e09d70)
-    (property "Reference" "C24" (at 120.65 93.98 0)
+    (property "Reference" "C29" (at 120.65 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22u" (at 120.65 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 115.8748 91.44 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 115.8748 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 95.25 0)
@@ -1311,12 +1311,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "C24") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "C6") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1325,7 +1325,7 @@
   (symbol (lib_id "power:+BATT") (at 52.07 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f0eb3cf-16d6-4626-bd01-ec10496e9686)
-    (property "Reference" "#PWR057" (at 52.07 50.8 0)
+    (property "Reference" "#PWR060" (at 52.07 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 52.07 41.91 0)
@@ -1341,12 +1341,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1355,13 +1355,13 @@
   (symbol (lib_id "Device:C") (at 40.64 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18a3dc68-ec50-422c-bfe7-1b66420a3096)
-    (property "Reference" "C18" (at 44.45 93.98 0)
+    (property "Reference" "C23" (at 44.45 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 44.45 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 39.6748 91.44 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 39.6748 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 95.25 0)
@@ -1372,12 +1372,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "C18") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1386,7 +1386,7 @@
   (symbol (lib_id "power:GND") (at 40.64 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18ecd1e2-5c85-42bb-993d-05061dcd5c37)
-    (property "Reference" "#PWR042" (at 40.64 107.95 0)
+    (property "Reference" "#PWR057" (at 40.64 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 106.68 0)
@@ -1402,12 +1402,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1416,7 +1416,7 @@
   (symbol (lib_id "power:+12V") (at 40.64 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 205a4695-c786-48dd-b692-9b6110e14e38)
-    (property "Reference" "#PWR041" (at 40.64 90.17 0)
+    (property "Reference" "#PWR056" (at 40.64 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 40.64 81.28 0)
@@ -1432,12 +1432,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1446,7 +1446,7 @@
   (symbol (lib_id "power:GND") (at 110.49 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20dfeb1d-5469-4a79-b406-3ff5d496431f)
-    (property "Reference" "#PWR068" (at 110.49 109.22 0)
+    (property "Reference" "#PWR066" (at 110.49 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.49 107.95 0)
@@ -1462,12 +1462,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1482,10 +1482,10 @@
     (property "Value" "5.0SMDJ16CA" (at 76.2 54.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 78.74 53.34 0)
+    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 78.74 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 73.66 53.34 0)
+    (property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet" (at 73.66 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 73c207f1-4029-4aa4-84b5-8c03cf66adb1))
@@ -1498,7 +1498,7 @@
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "D1") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -1507,13 +1507,13 @@
   (symbol (lib_id "Device:C") (at 82.55 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 369f9730-c780-4591-8f47-096fba2f8465)
-    (property "Reference" "C21" (at 82.55 83.82 90)
+    (property "Reference" "C26" (at 82.55 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 82.55 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 86.36 90.4748 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 86.36 90.4748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 82.55 91.44 0)
@@ -1524,12 +1524,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "C21") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "C4") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1538,7 +1538,7 @@
   (symbol (lib_id "power:-BATT") (at 52.07 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54663822-71bc-4a52-969f-9f49b63ae732)
-    (property "Reference" "#PWR058" (at 52.07 55.88 0)
+    (property "Reference" "#PWR061" (at 52.07 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-BATT" (at 52.07 64.77 0)
@@ -1554,12 +1554,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1568,7 +1568,7 @@
   (symbol (lib_id "power:+12V") (at 128.27 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 574376ee-3f3a-4391-b38c-616e77ce0b7e)
-    (property "Reference" "#PWR070" (at 128.27 52.07 0)
+    (property "Reference" "#PWR068" (at 128.27 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 128.27 43.18 0)
@@ -1584,12 +1584,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1598,7 +1598,7 @@
   (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 57.15 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c052518-2b3d-4460-a9ad-753d34e692b7)
-    (property "Reference" "U3" (at 57.15 125.73 0)
+    (property "Reference" "U5" (at 57.15 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP2112K-3.3TRG1" (at 57.15 128.27 0)
@@ -1618,12 +1618,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -1632,7 +1632,7 @@
   (symbol (lib_id "power:GND") (at 68.58 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8357b780-09f6-4195-bf58-03f52c88e33b)
-    (property "Reference" "#PWR062" (at 68.58 149.86 0)
+    (property "Reference" "#PWR065" (at 68.58 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 148.59 0)
@@ -1648,12 +1648,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1662,13 +1662,13 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 95.25 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88e348b2-85b5-4a37-bb85-8f78cd70ffa9)
-    (property "Reference" "C22" (at 99.06 51.435 0)
+    (property "Reference" "C27" (at 99.06 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 99.06 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 95.25 53.34 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 95.25 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 53.34 0)
@@ -1679,12 +1679,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "C22") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "C17") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1693,13 +1693,13 @@
   (symbol (lib_id "Device:C") (at 40.64 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d77230b-2d5f-4b94-8ce7-f25033e3a145)
-    (property "Reference" "C19" (at 44.45 137.16 0)
+    (property "Reference" "C24" (at 44.45 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 44.45 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 39.6748 134.62 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 39.6748 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 138.43 0)
@@ -1710,12 +1710,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "C19") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1730,7 +1730,7 @@
     (property "Value" "DLW5BTM251TQ2L" (at 113.8428 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "DLW5BTM251TQ2L:FIL_DLW5BTM251TQ2L" (at 114.3 53.34 0)
+    (property "Footprint" "" (at 114.3 53.34 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 114.3 53.34 0)
@@ -1787,7 +1787,7 @@
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "FL1") (unit 1)
+          (reference "FL?") (unit 1)
         )
       )
     )
@@ -1796,7 +1796,7 @@
   (symbol (lib_id "power:GND") (at 57.15 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91283864-012c-4c26-b767-9e8f6b3afc34)
-    (property "Reference" "#PWR059" (at 57.15 149.86 0)
+    (property "Reference" "#PWR062" (at 57.15 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 148.59 0)
@@ -1812,12 +1812,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1849,7 +1849,7 @@
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "D2") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -1864,7 +1864,7 @@
     (property "Value" "0685T3000-01" (at 63.5 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 63.5 50.038 90)
+    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 63.5 50.038 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 63.5 48.26 0)
@@ -1880,7 +1880,7 @@
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "F1") (unit 1)
+          (reference "F?") (unit 1)
         )
       )
     )
@@ -1889,7 +1889,7 @@
   (symbol (lib_id "power:+5V") (at 116.84 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97376f9b-6caa-4a66-8e62-cde5baec7ced)
-    (property "Reference" "#PWR069" (at 116.84 90.17 0)
+    (property "Reference" "#PWR067" (at 116.84 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 116.84 81.28 0)
@@ -1905,12 +1905,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1918,30 +1918,30 @@
 
   (symbol (lib_id "Connector:Barrel_Jack") (at 41.91 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b5886e07-09fa-42f6-b84f-b685edb0b6e5)
-    (property "Reference" "J4" (at 41.91 41.91 0)
+    (uuid a8850aaa-bb93-40e5-939d-5ef88e82e005)
+    (property "Reference" "J3" (at 41.91 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Barrel_Jack" (at 41.91 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 43.18 51.816 0)
+    (property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" (at 43.18 51.816 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.18 51.816 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d27b3baa-cf34-44b8-a42d-f19c7663e130))
-    (pin "2" (uuid 07dad87b-df76-4d5d-b2b2-6c9eb81e2301))
+    (pin "1" (uuid 037ad59c-4821-4b61-8af7-21fd6e68b0b6))
+    (pin "2" (uuid fdea447c-6c9b-424b-92b0-ca9254585f43))
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "J1") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -1950,7 +1950,7 @@
   (symbol (lib_id "Regulator_Switching:AP63205WU") (at 63.5 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8eac758-95bf-4417-9a99-5b235ee0a572)
-    (property "Reference" "U4" (at 63.5 81.28 0)
+    (property "Reference" "U6" (at 63.5 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP63205WU-7" (at 63.5 83.82 0)
@@ -1971,12 +1971,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "U4") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "U2") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -1985,7 +1985,7 @@
   (symbol (lib_id "power:+3.3V") (at 68.58 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1fbd3c3-2318-4bd0-b369-008133b5ccbb)
-    (property "Reference" "#PWR061" (at 68.58 133.35 0)
+    (property "Reference" "#PWR064" (at 68.58 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 68.58 124.46 0)
@@ -2001,12 +2001,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2015,7 +2015,7 @@
   (symbol (lib_id "Device:L") (at 92.71 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb0ae356-036c-4055-99cb-e89e24ebe7b1)
-    (property "Reference" "L4" (at 92.71 83.82 90)
+    (property "Reference" "L3" (at 92.71 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7u" (at 92.71 86.36 90)
@@ -2032,12 +2032,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "L4") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "L1") (unit 1)
+          (reference "L?") (unit 1)
         )
       )
     )
@@ -2046,13 +2046,13 @@
   (symbol (lib_id "Device:C") (at 68.58 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d45b5326-f934-4b8e-a8bc-e5d4a5972fe7)
-    (property "Reference" "C20" (at 72.39 137.16 0)
+    (property "Reference" "C25" (at 72.39 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 72.39 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 67.6148 134.62 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 67.6148 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 68.58 138.43 0)
@@ -2063,12 +2063,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "C20") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -2077,7 +2077,7 @@
   (symbol (lib_id "power:+5V") (at 40.64 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6cdefad-80ed-4d38-8d7d-ae6e319c0e71)
-    (property "Reference" "#PWR055" (at 40.64 133.35 0)
+    (property "Reference" "#PWR058" (at 40.64 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 40.64 124.46 0)
@@ -2093,12 +2093,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2107,13 +2107,13 @@
   (symbol (lib_id "Device:C") (at 104.14 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea7bc097-2530-48e7-86b5-368a018a74c2)
-    (property "Reference" "C23" (at 107.95 93.98 0)
+    (property "Reference" "C28" (at 107.95 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22u" (at 107.95 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 103.1748 91.44 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 103.1748 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 95.25 0)
@@ -2124,12 +2124,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "C23") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "C5") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -2138,7 +2138,7 @@
   (symbol (lib_id "power:GND") (at 40.64 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed3b922d-68d9-4413-ab95-19d39c9fb3be)
-    (property "Reference" "#PWR056" (at 40.64 149.86 0)
+    (property "Reference" "#PWR059" (at 40.64 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 148.59 0)
@@ -2154,12 +2154,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2168,13 +2168,13 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 128.27 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8bbbd45-f4e0-4ba4-ba8a-91083d2c582f)
-    (property "Reference" "C25" (at 132.08 51.435 0)
+    (property "Reference" "C30" (at 132.08 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 132.08 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 128.27 53.34 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 128.27 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.27 53.34 0)
@@ -2185,12 +2185,12 @@
     (instances
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "C25") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )

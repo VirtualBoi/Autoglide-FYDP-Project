@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "~ALL")(type "KiCad")(uri "F:/Ethan/Documents/git/Autoglide-FYDP-Project/Libraries/~ALL")(options "")(descr ""))
+)

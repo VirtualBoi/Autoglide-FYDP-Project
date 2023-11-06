@@ -59,6 +59,23 @@
     )
   )
 
+  (sheet (at 24.13 149.86) (size 124.46 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 996060af-581e-425f-9e10-26ee39d5a960)
+    (property "Sheetname" "Connectors" (at 24.13 149.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Connectors_Sheet.kicad_sch" (at 24.13 178.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "motor_board_pcb"
+        (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 208.28 36.83) (size 52.07 26.67) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
