@@ -3451,7 +3451,7 @@
     (property "Value" "16MHz?" (at 96.52 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 92.71 41.91 0)
+    (property "Footprint" "Crystal:Crystal_HC49-U_Vertical" (at 92.71 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 92.71 41.91 0)

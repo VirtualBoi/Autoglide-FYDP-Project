@@ -5,12 +5,12 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Connector:Barrel_Jack" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Connector:Barrel_Jack_MountingPin" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.334 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Barrel_Jack" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "Barrel_Jack_MountingPin" (at 1.27 -6.35 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (at 1.27 -1.016 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -21,13 +21,13 @@
       (property "ki_keywords" "DC power barrel jack connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "DC Barrel Jack" (at 0 0 0)
+      (property "ki_description" "DC Barrel Jack with a mounting pin" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "BarrelJack*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Barrel_Jack_0_1"
+      (symbol "Barrel_Jack_MountingPin_0_1"
         (rectangle (start -5.08 3.81) (end 5.08 -3.81)
           (stroke (width 0.254) (type default))
           (fill (type background))
@@ -65,7 +65,18 @@
           (fill (type outline))
         )
       )
-      (symbol "Barrel_Jack_1_1"
+      (symbol "Barrel_Jack_MountingPin_1_1"
+        (polyline
+          (pts
+            (xy -1.016 -4.572)
+            (xy 1.016 -4.572)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (text "Mounting" (at 0 -4.191 0)
+          (effects (font (size 0.381 0.381)))
+        )
         (pin passive line (at 7.62 2.54 180) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -73,6 +84,10 @@
         (pin passive line (at 7.62 -2.54 180) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -7.62 90) (length 3.048)
+          (name "MountPin" (effects (font (size 1.27 1.27))))
+          (number "MP" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1122,6 +1137,8 @@
     (uuid fda05f18-d50b-4191-ad40-f6acb7648846)
   )
 
+  (no_connect (at 41.91 58.42) (uuid b4b5ff5a-0249-498d-b457-924e96cf8dd8))
+
   (wire (pts (xy 104.14 105.41) (xy 110.49 105.41))
     (stroke (width 0) (type default))
     (uuid 05e7a6c5-2848-4811-bb86-3b5b53a53b43)
@@ -2003,7 +2020,7 @@
     (property "Value" "DLW5BTM251TQ2L" (at 113.8428 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 114.3 53.34 0)
+    (property "Footprint" "~ALL:FIL_DLW5BTZ251TQ2L" (at 114.3 53.34 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 114.3 53.34 0)
@@ -2214,42 +2231,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:Barrel_Jack") (at 41.91 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b5886e07-09fa-42f6-b84f-b685edb0b6e5)
-    (property "Reference" "J2" (at 41.91 41.91 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Barrel_Jack" (at 41.91 44.45 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" (at 43.18 51.816 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 43.18 51.816 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d27b3baa-cf34-44b8-a42d-f19c7663e130))
-    (pin "2" (uuid 07dad87b-df76-4d5d-b2b2-6c9eb81e2301))
-    (instances
-      (project "central_hub"
-        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
-          (reference "J2") (unit 1)
-        )
-      )
-      (project "motor_board_pcb"
-        (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
-          (reference "J4") (unit 1)
-        )
-      )
-      (project "LocalDesign"
-        (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Regulator_Switching:AP63205WU") (at 63.5 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8eac758-95bf-4417-9a99-5b235ee0a572)
@@ -2285,6 +2266,38 @@
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
           (reference "U2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 41.91 50.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ba05fe93-585d-42b7-8a2c-df4f65467c66)
+    (property "Reference" "J2" (at 41.91 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Barrel_Jack_MountingPin" (at 41.91 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" (at 43.18 51.816 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 43.18 51.816 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8b6f9b5a-7ffa-4267-b211-61304fb50d62))
+    (pin "2" (uuid a3e1e7cf-cc81-43db-a3f5-0a2cace600b5))
+    (pin "MP" (uuid 5c7bf878-e0d5-464b-8c09-7539d691910c))
+    (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "motor_board_pcb"
+        (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/8b03500d-82ba-403b-affc-552426d5b4ea"
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -2334,7 +2347,7 @@
     (property "Value" "4.7u" (at 92.71 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 92.71 92.71 0)
+    (property "Footprint" "~ALL:IND_VLS6045EX-100M" (at 92.71 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 92.71 92.71 0)

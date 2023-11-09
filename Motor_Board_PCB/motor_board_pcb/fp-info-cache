@@ -1,400 +1,190 @@
-96442471822513
-TestPoint
-TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
-Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
-CONN DEV
+45870173633350
+~ALL
+CON18_1X12_P0_HIR
+
+CX90B-16P 
+0
+24
+24
+~ALL
+CONN_PH2-06-UA_ADM
+
+PH2-06-UA 
+0
+6
+6
+~ALL
+CONN_TSM-105-01-S-DV-M-TR_SAI
+
+TSM-105-01-S-DV-M-TR 
+0
+10
+10
+~ALL
+CONN_TSM-105-01-S-DV-M-TR_SAI-L
+
+TSM-105-01-S-DV-M-TR 
+0
+10
+10
+~ALL
+CONN_TSM-105-01-S-DV-M-TR_SAI-M
+
+TSM-105-01-S-DV-M-TR 
+0
+10
+10
+~ALL
+CON_15249044
+
+15249044 
+0
+4
+4
+~ALL
+DFN12_4X3_INR
+
+ISL85410FRZ-T 
+0
+13
+13
+~ALL
+FIL_DLW5BTZ251TQ2L
+
+
+0
+4
+4
+~ALL
+INDC2520X120N
+
+
 0
 2
 2
-TestPoint
-TestPoint_2Pads_Pitch5.08mm_Drill1.3mm
-Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
-CONN DEV
+~ALL
+IND_BLM18_0603_MUR
+
+BLM18PG471SN1D 
 0
 2
 2
-TestPoint
-TestPoint_Bridge_Pitch2.0mm_Drill0.7mm
-wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
-test point wire loop
+~ALL
+IND_BLM18_0603_MUR-L
+
+BLM18PG471SN1D 
 0
 2
-1
-TestPoint
-TestPoint_Bridge_Pitch2.54mm_Drill0.7mm
-wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
-test point wire loop
+2
+~ALL
+IND_BLM18_0603_MUR-M
+
+BLM18PG471SN1D 
 0
 2
-1
-TestPoint
-TestPoint_Bridge_Pitch2.54mm_Drill1.0mm
-wire loop as test point, pitch 2.54mm, hole diameter 1.0mm, wire diameter 0.8mm
-test point wire loop
+2
+~ALL
+IND_VLS6045EX-100M
+
+
 0
 2
-1
-TestPoint
-TestPoint_Bridge_Pitch2.54mm_Drill1.3mm
-wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm
-test point wire loop
-0
 2
-1
-TestPoint
-TestPoint_Bridge_Pitch3.81mm_Drill1.3mm
-wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm
-test point wire loop
+~ALL
+PLQP0064KB-C_REN
+
+R7FA4M1AB3CFM 
 0
-2
-1
-TestPoint
-TestPoint_Bridge_Pitch5.08mm_Drill0.7mm
-wire loop as test point, pitch 5.08mm, hole diameter 0.7mm, wire diameter 1.0mm
-test point wire loop
+64
+64
+~ALL
+PLQP0064KB-C_REN-L
+
+R7FA4M1AB3CFM 
 0
-2
-1
-TestPoint
-TestPoint_Bridge_Pitch5.08mm_Drill1.3mm
-wire loop as test point, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
-test point wire loop
+64
+64
+~ALL
+PLQP0064KB-C_REN-M
+
+R7FA4M1AB3CFM 
 0
-2
-1
-TestPoint
-TestPoint_Bridge_Pitch6.35mm_Drill1.3mm
-wire loop as test point, pitch 6.35mm, hole diameter 1.3mm, wire diameter 1.0mm
-test point wire loop
+64
+64
+~ALL
+QFN24_4X4X0P9_IVS
+
+MPU-6050 
 0
-2
-1
-TestPoint
-TestPoint_Bridge_Pitch7.62mm_Drill1.3mm
-wire loop as test point, pitch 7.62mm, hole diameter 1.3mm, wire diameter 1.0mm
-test point wire loop
+25
+25
+~ALL
+QFN24_4X4X0P9_IVS-L
+
+MPU-6050 
 0
-2
-1
-TestPoint
-TestPoint_Keystone_5000-5004_Miniature
-Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
-Through Hole Mount Test Points
+25
+25
+~ALL
+QFN24_4X4X0P9_IVS-M
+
+MPU-6050 
 0
-1
-1
-TestPoint
-TestPoint_Keystone_5005-5009_Compact
-Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314
-Through Hole Mount Test Points
+25
+25
+~ALL
+QFN50P500X500X90-29N
+
+
 0
-1
-1
-TestPoint
-TestPoint_Keystone_5010-5014_Multipurpose
-Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319
-Through Hole Mount Test Points
+29
+29
+~ALL
+SOIC_05WU-7_DIO
+
+AP63205WU-7 
 0
-1
-1
-TestPoint
-TestPoint_Keystone_5015_Micro-Minature
-SMT Test Point- Micro Miniature 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
-Test Point
+6
+6
+~ALL
+SOIC_05WU-7_DIO-L
+
+AP63205WU-7 
 0
-1
-1
-TestPoint
-TestPoint_Keystone_5019_Minature
-SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357
-Test Point
+6
+6
+~ALL
+SOIC_05WU-7_DIO-M
+
+AP63205WU-7 
 0
-1
-1
-TestPoint
-TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
-wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm
-test point wire loop bead
+6
+6
+~ALL
+SOT23-3
+
+
 0
-1
-1
-TestPoint
-TestPoint_Loop_D2.50mm_Drill1.0mm
-wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
-test point wire loop bead
+3
+3
+~ALL
+SOT96-1
+<li><b>SOT96-1</b><hr><ul><li>SO8: plastic small outline package; 8 leads; body width 3.9 mm<li><u>JEDEC</u>: MS-012<li><u>IEC</u>: 076E03</ul>
+
 0
-1
-1
-TestPoint
-TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile
-low profile wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
-test point wire loop bead
+8
+8
+~ALL
+TRIM_TC33X-2-103E
+<b>TC33X-2</b><br>
+
 0
-1
-1
-TestPoint
-TestPoint_Loop_D2.50mm_Drill1.85mm
-wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm
-test point wire loop bead
+3
+3
+~ALL
+VALCON_CSP-USC16-TR
+
+
 0
-1
-1
-TestPoint
-TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded
-wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm
-test point wire loop bead
-0
-1
-1
-TestPoint
-TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded
-wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm
-test point wire loop bead
-0
-1
-1
-TestPoint
-TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded
-wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.4mm
-test point wire loop bead
-0
-1
-1
-TestPoint
-TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded
-wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.6mm
-test point wire loop bead
-0
-1
-1
-TestPoint
-TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm
-test point wire loop bead
-0
-1
-1
-TestPoint
-TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded
-wire loop with bead as test point, loop diameter 3.5mm, hole diameter 1.4mm
-test point wire loop bead
-0
-1
-1
-TestPoint
-TestPoint_Loop_D3.80mm_Drill2.0mm
-wire loop as test point, loop diameter 3.8mm, hole diameter 2.0mm
-test point wire loop bead
-0
-1
-1
-TestPoint
-TestPoint_Loop_D3.80mm_Drill2.5mm
-wire loop as test point, loop diameter 3.8mm, hole diameter 2.5mm
-test point wire loop bead
-0
-1
-1
-TestPoint
-TestPoint_Loop_D3.80mm_Drill2.8mm
-wire loop as test point, loop diameter 3.8mm, hole diameter 2.8mm
-test point wire loop bead
-0
-1
-1
-TestPoint
-TestPoint_Pad_1.0x1.0mm
-SMD rectangular pad as test Point, square 1.0mm side length
-test point SMD pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_Pad_1.5x1.5mm
-SMD rectangular pad as test Point, square 1.5mm side length
-test point SMD pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_Pad_2.0x2.0mm
-SMD rectangular pad as test Point, square 2.0mm side length
-test point SMD pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_Pad_2.5x2.5mm
-SMD rectangular pad as test Point, square 2.5mm side length
-test point SMD pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_Pad_3.0x3.0mm
-SMD rectangular pad as test Point, square 3.0mm side length
-test point SMD pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_Pad_4.0x4.0mm
-SMD rectangular pad as test Point, square 4.0mm side length
-test point SMD pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_Pad_D1.0mm
-SMD pad as test Point, diameter 1.0mm
-test point SMD pad
-0
-1
-1
-TestPoint
-TestPoint_Pad_D1.5mm
-SMD pad as test Point, diameter 1.5mm
-test point SMD pad
-0
-1
-1
-TestPoint
-TestPoint_Pad_D2.0mm
-SMD pad as test Point, diameter 2.0mm
-test point SMD pad
-0
-1
-1
-TestPoint
-TestPoint_Pad_D2.5mm
-SMD pad as test Point, diameter 2.5mm
-test point SMD pad
-0
-1
-1
-TestPoint
-TestPoint_Pad_D3.0mm
-SMD pad as test Point, diameter 3.0mm
-test point SMD pad
-0
-1
-1
-TestPoint
-TestPoint_Pad_D4.0mm
-SMD pad as test Point, diameter 4.0mm
-test point SMD pad
-0
-1
-1
-TestPoint
-TestPoint_Plated_Hole_D2.0mm
-Plated Hole as test Point, diameter 2.0mm
-test point plated hole
-0
-1
-1
-TestPoint
-TestPoint_Plated_Hole_D3.0mm
-Plated Hole as test Point, diameter 3.0mm
-test point plated hole
-0
-1
-1
-TestPoint
-TestPoint_Plated_Hole_D4.0mm
-Plated Hole as test Point, diameter 4.0mm
-test point plated hole
-0
-1
-1
-TestPoint
-TestPoint_Plated_Hole_D5.0mm
-Plated Hole as test Point, diameter 5.0mm
-test point plated hole
-0
-1
-1
-TestPoint
-TestPoint_THTPad_1.0x1.0mm_Drill0.5mm
-THT rectangular pad as test Point, square 1.0mm side length, hole diameter 0.5mm
-test point THT pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_THTPad_1.5x1.5mm_Drill0.7mm
-THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm
-test point THT pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_THTPad_2.0x2.0mm_Drill1.0mm
-THT rectangular pad as test Point, square 2.0mm_Drill1.0mm  side length, hole diameter 1.0mm
-test point THT pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_THTPad_2.5x2.5mm_Drill1.2mm
-THT rectangular pad as test Point, square 2.5mm side length, hole diameter 1.2mm
-test point THT pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_THTPad_3.0x3.0mm_Drill1.5mm
-THT rectangular pad as test Point, square 3.0mm side length, hole diameter 1.5mm
-test point THT pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_THTPad_4.0x4.0mm_Drill2.0mm
-THT rectangular pad as test Point, square 4.0mm  side length, hole diameter 2.0mm
-test point THT pad rectangle square
-0
-1
-1
-TestPoint
-TestPoint_THTPad_D1.0mm_Drill0.5mm
-THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm
-test point THT pad
-0
-1
-1
-TestPoint
-TestPoint_THTPad_D1.5mm_Drill0.7mm
-THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm
-test point THT pad
-0
-1
-1
-TestPoint
-TestPoint_THTPad_D2.0mm_Drill1.0mm
-THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm
-test point THT pad
-0
-1
-1
-TestPoint
-TestPoint_THTPad_D2.5mm_Drill1.2mm
-THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm 
-test point THT pad
-0
-1
-1
-TestPoint
-TestPoint_THTPad_D3.0mm_Drill1.5mm
-THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm
-test point THT pad
-0
-1
-1
-TestPoint
-TestPoint_THTPad_D4.0mm_Drill2.0mm
-THT pad as test Point, diameter 4.0mm, hole diameter 2.0mm
-test point THT pad
-0
-1
-1
+20
+20
