@@ -1,0 +1,87 @@
+(pcb "F:/Ethan/Documents/git/Autoglide-FYDP-Project/Motor_Board_PCB/motor_board_pcb\temp-freerouting.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.7")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  1000 -1000  -1000 -1000  -1000 1000  1000 1000  1000 -1000)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+  )
+  (library
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (class kicad_default "" +12V +3.3V +BATT -BATT /CAN/CAN_HI /CAN/CAN_LOW
+      /CAN/SOF /Connectors/CC1 /Connectors/CC2 /Connectors/SHIELD2 /MCU/AREF
+      /MCU/CC1 /MCU/CC2 /MCU/MCU_3V3 /MCU/MD /MCU/P012 /MCU/P013 /MCU/P204
+      /Motor_Driver/5VOUT /Motor_Driver/OUTA1 /Motor_Driver/OUTA2 /Motor_Driver/OUTB1
+      /Motor_Driver/OUTB2 A0 A1 A2 A3 A4 A5 BOOT CAN_CS CAN_SCK CAN_SI CAN_SO
+      D0 D1 D10 D11 D12 D13 D2 D3 D4 D5 D6 D7 D8 D9 D_DIR D_STEP GND IOREF
+      "Net-(C30-Pad2)" "Net-(D1-K)" "Net-(D2-K)" "Net-(D3-K)" "Net-(D4-K)"
+      "Net-(D6-A)" "Net-(D6-K)" "Net-(D7-A)" "Net-(D7-K)" "Net-(D8-A2)" "Net-(D9-K)"
+      "Net-(R22-Pad1)" "Net-(R6-Pad2)" "Net-(U1-AVCC0)" "Net-(U1-GTIOC2A{slash}AN016{slash}P500)"
+      "Net-(U1-NMI{slash}INPUT_ONLY_P200)" "Net-(U1-P010{slash}AN005{slash}VREFH0)"
+      "Net-(U1-P212{slash}GTIOC0B{slash}EXTAL)" "Net-(U1-P213{slash}GTIOC0A{slash}XTAL)"
+      "Net-(U1-P407{slash}USB_VBUS{slash}ADTRG0)" "Net-(U1-VCL)" "Net-(U2-OSC1)"
+      "Net-(U2-OSC2)" "Net-(U4-!ENN)" "Net-(U4-BRA)" "Net-(U4-BRB)" "Net-(U4-CPI)"
+      "Net-(U4-CPO)" "Net-(U4-DIR)" "Net-(U4-MS1_AD0)" "Net-(U4-MS2_AD1)"
+      "Net-(U4-PDN_UART)" "Net-(U4-SPREAD)" "Net-(U4-STDBY)" "Net-(U4-STEP)"
+      "Net-(U4-VCP)" "Net-(U4-VREF)" "Net-(U6-BST)" "Net-(U6-SW)" P108 P300
+      P501 P502 USB_D+ "USB_D-" VUSB VUSB_DIODE "unconnected-(J11-SBU1-PadA8)"
+      "unconnected-(J11-SBU2-PadB8)" "unconnected-(J5-Pin_8-Pad8)" "unconnected-(J6-MountPin-PadMP)"
+      "unconnected-(U1-AN003{slash}P003-Pad61)" "unconnected-(U1-AN004{slash}P004-Pad60)"
+      "unconnected-(U1-AN010{slash}P015-Pad52)" "unconnected-(U1-GTIOC2A{slash}P113-Pad38)"
+      "unconnected-(U1-GTIOC4A{slash}P205-Pad23)" "unconnected-(U1-P206-Pad22)"
+      "unconnected-(U1-P214_INPUT_ONLY{slash}XCOUT-Pad7)" "unconnected-(U1-P215_INPUT_ONLY{slash}XCIN-Pad6)"
+      "unconnected-(U1-P400{slash}GTIOC6A-Pad1)" "unconnected-(U1-P401{slash}GTIOC6B{slash}CTX0-Pad2)"
+      "unconnected-(U1-P402{slash}CRX0-Pad3)" "unconnected-(U1-P408{slash}GTIOC5B{slash}USB_ID-Pad15)"
+      "unconnected-(U1-P409{slash}GTIOC5A{slash}USB_EXICEN-Pad14)" "unconnected-(U1-P410{slash}GTIOC6B-Pad13)"
+      "unconnected-(U1-P411{slash}GTIOC6A-Pad12)" "unconnected-(U1-VREFL0{slash}AN006{slash}P011-Pad58)"
+      "unconnected-(U2-NC-Pad15)" "unconnected-(U2-NC-Pad6)" "unconnected-(U2-~{INT}-Pad13)"
+      "unconnected-(U2-~{RESET}-Pad19)" "unconnected-(U2-~{RX0BF}-Pad12)"
+      "unconnected-(U2-~{RX1BF}-Pad11)" "unconnected-(U2-~{TX0RTS}-Pad4)"
+      "unconnected-(U2-~{TX1RTS}-Pad5)" "unconnected-(U2-~{TX2RTS}-Pad7)"
+      "unconnected-(U3-VREF-Pad5)" "unconnected-(U4-DIAG-Pad11)" "unconnected-(U4-INDEX-Pad12)"
+      "unconnected-(U4-NC-Pad25)" "unconnected-(U5-NC-Pad4)" "~{RESET}"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
