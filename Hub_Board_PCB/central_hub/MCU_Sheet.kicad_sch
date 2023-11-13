@@ -2338,7 +2338,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 80.01 34.29 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c6e37de-b84a-4d9d-b0a2-88dfacf3cbf3)
     (property "Reference" "C1" (at 80.01 26.67 90)
       (effects (font (size 1.27 1.27)))
@@ -3259,7 +3259,7 @@
   )
 
   (symbol (lib_id "Device:Crystal") (at 92.71 41.91 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 715961fb-1b09-49fb-beaa-4111296cf3d3)
     (property "Reference" "Y1" (at 96.52 40.64 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3402,7 +3402,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 80.01 52.07 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88fb389c-19f8-4d69-b753-f3f531fd4a91)
     (property "Reference" "C2" (at 80.01 44.45 90)
       (effects (font (size 1.27 1.27)))
