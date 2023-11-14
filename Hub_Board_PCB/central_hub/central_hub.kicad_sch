@@ -8,6 +8,23 @@
   )
 
 
+  (sheet (at 299.72 86.36) (size 26.67 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 03e2ac12-cd4f-4f0e-a2f0-efdec4693493)
+    (property "Sheetname" "Shifters" (at 299.72 85.6484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Shifters_sheet.kicad_sch" (at 299.72 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b" (page "7"))
+      )
+    )
+  )
+
   (sheet (at 242.57 30.48) (size 39.37 36.83) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

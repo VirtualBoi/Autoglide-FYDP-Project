@@ -491,6 +491,10 @@
     [
       "8e53aed1-21e6-440d-aae4-1b5509ec346a",
       "Connectors"
+    ],
+    [
+      "03e2ac12-cd4f-4f0e-a2f0-efdec4693493",
+      "Shifters"
     ]
   ],
   "text_variables": {}
