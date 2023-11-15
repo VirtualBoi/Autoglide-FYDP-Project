@@ -1780,7 +1780,7 @@
     (property "Value" "VLS6045EX-100M" (at 123.19 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "VLS6045EX-100M:IND_VLS6045EX-100M" (at 123.19 48.26 0)
+    (property "Footprint" "~ALL:IND_VLS6045EX-100M" (at 123.19 48.26 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 123.19 48.26 0)
