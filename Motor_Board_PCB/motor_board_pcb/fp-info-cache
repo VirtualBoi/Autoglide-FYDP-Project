@@ -1,4 +1,4 @@
-22273451530006439
+22278553594432956
 15249044
 CON_15249044
 
@@ -91958,6 +91958,27 @@ varistor
 0
 2
 2
+~ALL
+AutoGlide
+
+
+0
+0
+0
+~ALL
+AutoGlideMedium
+
+
+0
+0
+0
+~ALL
+AutoGlideSmall
+
+
+0
+0
+0
 ~ALL
 CON18_1X12_P0_HIR
 
