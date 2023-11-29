@@ -1467,40 +1467,6 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 38.1 48.26 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0633f03a-bebf-4e3e-a32c-7cfe90d66ed4)
-    (property "Reference" "J8" (at 38.1 39.37 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x02" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 38.1 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 38.1 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bd6c786d-dc35-415c-b2f8-cd4d251df6c6))
-    (pin "2" (uuid e9ac4735-9a65-4fb1-8cf5-b8a5312e1e65))
-    (instances
-      (project "central_hub"
-        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/8e53aed1-21e6-440d-aae4-1b5509ec346a"
-          (reference "J8") (unit 1)
-        )
-        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
-          (reference "J2") (unit 1)
-        )
-      )
-      (project "motor_board_pcb"
-        (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/996060af-581e-425f-9e10-26ee39d5a960"
-          (reference "J8") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "VLS6045EX-100M:VLS6045EX-100M") (at 123.19 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07113101-8354-4aa3-a03b-c395c0b1b162)
@@ -2199,6 +2165,40 @@
       (project "LocalDesign"
         (path "/a439ee58-92e3-49e0-a19d-7c5a25d23ba1"
           (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 38.1 45.72 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8dd5f126-fc1d-4140-b229-fffb51fd71a8)
+    (property "Reference" "J8" (at 38.1 54.61 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x02" (at 38.1 52.07 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 38.1 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 38.1 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 697c797c-63d9-47d7-9faa-df404cb700f6))
+    (pin "2" (uuid 71c0377b-b038-444b-b53b-fb626b2f042c))
+    (instances
+      (project "central_hub"
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/8e53aed1-21e6-440d-aae4-1b5509ec346a"
+          (reference "J8") (unit 1)
+        )
+        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/5d965db6-20f7-4bcf-a9c5-180dec6abb05"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "motor_board_pcb"
+        (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/996060af-581e-425f-9e10-26ee39d5a960"
+          (reference "J8") (unit 1)
         )
       )
     )
