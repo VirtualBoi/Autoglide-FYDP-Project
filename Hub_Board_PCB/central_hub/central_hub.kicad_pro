@@ -45,13 +45,13 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "lib_footprint_issues|20700000|3700000|7674b6a9-7452-4771-b238-92b52dd91813|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|104300000|47300000|e443e3cf-6ed8-43b3-ab81-41882bd1b20e|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_issues|79850000|97150000|7674b6a9-7452-4771-b238-92b52dd91813|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|163075000|87700000|e443e3cf-6ed8-43b3-ab81-41882bd1b20e|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
