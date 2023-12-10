@@ -8169,7 +8169,7 @@
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp c0a2ebc2-e51d-4dcc-bf0f-2dca2084116f))
   (gr_rect (start 92.3 57.9) (end 187.3 102.9)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 53445404-97d4-4ebb-8b0f-a87f679eb9cd))
-  (gr_text "FYDP 2024\nGroup 26\n- Ethan Gilbert\n- Brandon Phu\n- Jonathon Ko\n- Ben Flack" (at 116.13 100.99) (layer "B.SilkS") (tstamp 0c231e7b-6745-4ee7-86bb-2482478c7aea)
+  (gr_text "FYDP 2024\nGroup 26\n- Ethan Gilbert\n- Brandon Phu\n- Jonathan Ko\n- Ben Flack" (at 116.13 100.99) (layer "B.SilkS") (tstamp 0c231e7b-6745-4ee7-86bb-2482478c7aea)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom mirror))
   )
   (gr_text "SCK" (at 145.7 98.4 90) (layer "F.SilkS") (tstamp 12c4f3dc-5e41-4e8f-8a60-ad873990b7e1)
