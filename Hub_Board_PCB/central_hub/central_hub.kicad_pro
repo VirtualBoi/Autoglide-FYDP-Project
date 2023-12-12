@@ -45,13 +45,24 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.15
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.0,
+          "width": 0.2764
+        }
+      ],
       "drc_exclusions": [
         "lib_footprint_issues|79850000|97150000|7674b6a9-7452-4771-b238-92b52dd91813|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|163075000|87700000|e443e3cf-6ed8-43b3-ab81-41882bd1b20e|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|163080000|88230750|e443e3cf-6ed8-43b3-ab81-41882bd1b20e|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -110,7 +121,7 @@
         "max_error": 0.005,
         "min_clearance": 0.15,
         "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.15,
@@ -168,8 +179,20 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.25
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -402,10 +425,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.2764,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
