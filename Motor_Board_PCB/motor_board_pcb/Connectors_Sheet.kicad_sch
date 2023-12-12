@@ -1842,42 +1842,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 93.98 101.6 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4e4247f6-49ba-48f0-9b16-950f3fd071e0)
-    (property "Reference" "TP?" (at 101.6 101.6 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TestPoint" (at 97.282 99.06 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 93.98 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 93.98 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ffbdb3e2-5751-493c-a088-f124bc336192))
-    (instances
-      (project "central_hub"
-        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b"
-          (reference "TP?") (unit 1)
-        )
-        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/4fb60496-ee10-4e45-a75e-a49c2c8afc68"
-          (reference "TP?") (unit 1)
-        )
-        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/8e53aed1-21e6-440d-aae4-1b5509ec346a"
-          (reference "TP?") (unit 1)
-        )
-      )
-      (project "motor_board_pcb"
-        (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/996060af-581e-425f-9e10-26ee39d5a960"
-          (reference "TP7") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:TestPoint") (at 41.91 39.37 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5959a966-bb89-49ee-bd27-bd0e70435440)
@@ -2090,42 +2054,6 @@
       (project "motor_board_pcb"
         (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/996060af-581e-425f-9e10-26ee39d5a960"
           (reference "J8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 93.98 104.14 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 95ac18f1-4828-439c-a8c7-3d4cad1cf5e3)
-    (property "Reference" "TP?" (at 101.6 104.14 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TestPoint" (at 97.282 101.6 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 93.98 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 93.98 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 23e4bb6d-28b6-4f99-8a3b-4995b717366a))
-    (instances
-      (project "central_hub"
-        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b"
-          (reference "TP?") (unit 1)
-        )
-        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/4fb60496-ee10-4e45-a75e-a49c2c8afc68"
-          (reference "TP?") (unit 1)
-        )
-        (path "/0d9ec66e-0fbf-4d12-9b83-adf78971a00b/8e53aed1-21e6-440d-aae4-1b5509ec346a"
-          (reference "TP?") (unit 1)
-        )
-      )
-      (project "motor_board_pcb"
-        (path "/4ad82a24-c992-45c9-b523-12e12bcd6ced/996060af-581e-425f-9e10-26ee39d5a960"
-          (reference "TP8") (unit 1)
         )
       )
     )
