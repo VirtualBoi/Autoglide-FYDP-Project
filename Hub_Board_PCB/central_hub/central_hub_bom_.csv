@@ -1,0 +1,65 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,fp,FP,Voltage,Colour,Check_prices,MF,MP,PROD_ID,Package,SnapEDA_Link,Availability,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,PARTREV,Price,Purchase-URL,STANDARD,Tolerance
+1,Unpolarized capacitor,C,C2 C3 C11 C13,22p,C_0603_1608Metric,4,~,0603,0603,,,,,,,,,,,,,,,,
+2,Unpolarized capacitor,C,C19,2.2n,C_0603_1608Metric,1,~,,0603,,,,,,,,,,,,,,,,
+3,Unpolarized capacitor,C,C23,4.7nF,C_0603_1608Metric,1,~,,0603,1kV,,,,,,,,,,,,,,,
+4,Unpolarized capacitor,C,C31,10n,C_0603_1608Metric,1,~,,0603,,,,,,,,,,,,,,,,
+5,Unpolarized capacitor,C,C1 C5 C6 C9 C12 C14 C15 C18 C26,100nF,C_0603_1608Metric,9,~,0603,0603,,,,,,,,,,,,,,,,
+6,Unpolarized capacitor,C,C32,0.1u,C_0402_1005Metric,1,~,,0402,,,,,,,,,,,,,,,,
+7,Unpolarized capacitor,C,C8 C16 C17,1uF,C_0603_1608Metric,3,~,,0603,,,,,,,,,,,,,,,,
+8,Unpolarized capacitor,C,C25,1u,C_1206_3216Metric,1,~,,1206,,,,,,,,,,,,,,,,
+9,Unpolarized capacitor,C,C4 C7 C10,4.7uF,C_0603_1608Metric,3,~,0603,0603,,,,,,,,,,,,,,,,
+10,Unpolarized capacitor,C,C24,10u,C_0603_1608Metric,1,~,,0603,,,,,,,,,,,,,,,,
+11,Unpolarized capacitor,C,C27 C30,10u,C_1210_3225Metric,2,~,,1210,,,,,,,,,,,,,,,,
+12,Unpolarized capacitor,C,C28 C29,22u,C_0603_1608Metric,2,~,,0603,,,,,,,,,,,,,,,,
+13,"400W bidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)",SMAJ18CA,D13,5.0SMDJ16CA,D_0603_1608Metric,1,https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet,,0603,,,,,,,,,,,,,,,,
+14,Light emitting diode,LED,D1 D2 D3,LED,D_0603_1608Metric,3,~,,0603,,GREEN,,,,,,,,,,,,,,
+15,Light emitting diode,LED,D6 D7,LED,LED_1206_3216Metric,2,~,,1206,,,,,,,,,,,,,,,,
+16,50V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount SOT-323,PESD1CAN,D5,PESD1CAN,SOT23-3,1,,,,,,https://www.snapeda.com/parts/PESD1CAN/Nexperia/view-part/?ref=eda,Nexperia USA,PESD1CAN,DIO-12501,SOT-23-3 NXP Semiconductors,https://www.snapeda.com/parts/PESD1CAN/Nexperia/view-part/?ref=snap,,,,,,,,
+17,"30V, 5A low Vf MEGA Schottky barrier rectifier, SOT-1289",PMEG030V050EPD,D12,PMEG030V050EPD,Nexperia_CFP15_SOT-1289,1,https://assets.nexperia.com/documents/data-sheet/PMEG030V050EPD.pdf,,,,,,,,,,,,,,,,,,
+18,"60V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W",PMEG6020AELR,D10,PMEG6020AELRX,Nexperia_CFP3_SOD-123W,1,https://assets.nexperia.com/documents/data-sheet/PMEG6020AELR.pdf,,,,,,,,,,,,,,,,,,
+19,"Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143",PRTR5V0U2X,D11,"PRTR5V0U2X,215",SOT-143,1,https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf,,,,,,,,,,,,,,,,,,
+20,Fuse,Fuse,F2,0685T3000-01,Fuse_1206_3216Metric,1,~,,1206,,,,,,,,,,,,,,,,
+21,2 Line Common Mode Choke Surface Mount 250 Ohms @ 100 MHz 5A DCR 20mOhm,DLW5BTM251TQ2L,FL2,DLW5BTM251TQ2L,FIL_DLW5BTZ251TQ2L,1,,,,,,https://www.snapeda.com/parts/DLW5BTM251TQ2L/Murata/view-part/?ref=eda,Murata,DLW5BTM251TQ2L,,Horizontal-6 Murata,https://www.snapeda.com/parts/DLW5BTM251TQ2L/Murata/view-part/?ref=snap,In Stock,Murata Electronics,2.5 mm,N/A,None,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=779096&manufacturer=Murata&part_name=DLW5BTM251TQ2L&search_term=dlw5btm251tq2l,Manufacturer recommendations,
+22,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J1,CAN_OUT,PinHeader_1x02_P2.54mm_Vertical,1,~,,,,,,,,,,,,,,,,,,
+23,CSP-USC16-TR Valcon USB Type C Surface Mount PCB Socket,CSP-USC16-TR,J5,CSP-USC16-TR,VALCON_CSP-USC16-TR,1,,,,,,https://www.snapeda.com/parts/CSP-USC16-TR/Valcon/view-part/?ref=eda,Valcon,CSP-USC16-TR,,None,https://www.snapeda.com/parts/CSP-USC16-TR/Valcon/view-part/?ref=snap,In Stock,Valcon,3.26 mm,A0,None,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4783629&manufacturer=Valcon&part_name=CSP-USC16-TR&search_term=usb-c,Manufacturer Recommendations,
+24,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J2 J8,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,2,~,,,,,,,,,,,,,,,,,,
+25,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J7,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,1,~,,,,,,,,,,,,,,,,,,
+26,"Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x04,J6 J9,Screw_Terminal_01x04,PinHeader_1x04_P2.54mm_Vertical,2,~,,,,,,,,,,,,,,,,,,
+27,"Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x08,J3 J4,Screw_Terminal_01x08,PinHeader_1x08_P2.54mm_Vertical,2,~,,,,,,,,,,,,,,,,,,
+28,,BLM18PG471SN1D,L1 L2,BLM18PG471SN1D,IND_BLM18_0603_MUR,2,BLM18PG471SN1D,,0603,,,,,,,,,,,,,,,,
+29,"Inductor with Inductance: 4.7uH Tol. +/-20%, Package: 1008 (2520)",DFE252012F-4R7M=P2,L4,DFE252012F-4R7M=P2,INDC2520X120N,1,,,,,,https://www.snapeda.com/parts/DFE252012F-4R7M=P2/Murata+Electronics+North+America/view-part/?ref=eda,Murata Electronics,DFE252012F-4R7M=P2,,2520 Murata,https://www.snapeda.com/parts/DFE252012F-4R7M=P2/Murata+Electronics+North+America/view-part/?ref=snap,In Stock,,,,None,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=942467&manufacturer=Murata Electronics&part_name=DFE252012F-4R7M=P2&search_term=dfe252012f-4r7m=p2,,
+30,"10 µH Shielded Drum Core, Wirewound Inductor 3.4 A 47mOhm Nonstandard",VLS6045EX-100M,L5,VLS6045EX-100M,IND_VLS6045EX-100M,1,,,,,,https://www.snapeda.com/parts/VLS6045EX-100M/TDK/view-part/?ref=eda,TDK,VLS6045EX-100M,,NON STANDARD-2 TDK,https://www.snapeda.com/parts/VLS6045EX-100M/TDK/view-part/?ref=snap,In Stock,TDK,4.5 mm,N/A,None,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=620467&manufacturer=TDK&part_name=VLS6045EX-100M&search_term=vls6045ex-100m,Manufacturer Recommendations,
+31,"50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23",BSS138,Q1 Q2 Q3 Q4 Q5,BSS138,SOT-23,5,https://www.onsemi.com/pub/Collateral/BSS138-D.PDF,,,,,,,,,,,,,,,,,,
+32,Resistor,R,R7 R11 R35 R36 R37,0,R_0402_1005Metric,5,~,,0402,,,,,,,,,,,,,,,,
+33,Resistor,R,R18,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,~,,0603,,,,,,,,,,,,,,,,
+34,Resistor,R,R19 R20,270,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,~,,0603,,,,,,,,,,,,,,,,
+35,Resistor,R,R8 R9 R10,330,R_0603_1608Metric,3,~,,0603,,,,,,,,,,,,,,,,
+36,Resistor,R,R16 R17 R32 R33 R34,4.7k,R_0603_1608Metric,5,~,,0603,,,,,,,,,,,,,,,,
+37,Resistor,R,R1 R2 R3 R4 R5 R12 R13,5.1k,R_0603_1608Metric,7,~,0603,0603,,,,,,,,,,,,,,,,
+38,Resistor,R,R6 R22 R23 R24 R25 R26 R27 R28 R29 R30 R31,10k,R_0603_1608Metric,11,~,,0603,,,,,,,,,,,,,,,,
+39,Resistor,R,R15,13.7k,R_0603_1608Metric,1,~,,0603,,,,,,,,,,,,,,,,0.1%
+40,Resistor,R,R14,100k,R_0603_1608Metric,1,~,,0603,,,,,,,,,,,,,,,,0.1%
+41,Resistor,R,R21,1M,R_0603_1608Metric,1,~,,0603,,,,,,,,,,,,,,,,
+42,"600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5",AP2112K-3.3,U5,AP2112K-3.3TRG1,SOT-23-5,1,https://www.diodes.com/assets/Datasheets/AP2112.pdf,,,,,,,,,,,,,,,,,,
+43,"2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6",AP63205WU,U7,AP63205WU-7,TSOT-23-6,1,https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf,,,,,,,,,,,,,,,,,,
+44,"Stand-Alone CAN Controller with SPI Interface, TSSOP-20",MCP2515-xST,U3,MCP2515-xST,TSSOP-20_4.4x6.5mm_P0.65mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf,,,,,,,,,,,,,,,,,,
+45,"InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C",MPU-6050,U2,MPU-6050,InvenSense_QFN-24_4x4mm_P0.5mm,1,https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf,,,,,,,,,,,,,,,,,,
+46,,R7FA4M1AB3CFM,U1,R7FA4M1AB3CFM,PLQP0064KB-C_REN,1,R7FA4M1AB3CFM,,,,,,,,,,,,,,,,,,
+47,CAN 1MBd Silent 5V Automotive 8-Pin SO T/R,TJA1050,U4,TJA1050,SOT96-1,1,,,,,,https://www.snapeda.com/parts/TJA1050/NXP+Semiconductors/view-part/?ref=eda,NXP Semiconductors,TJA1050,,None,https://www.snapeda.com/parts/TJA1050/NXP+Semiconductors/view-part/?ref=snap,Not in stock,,,,None,,,
+48,Two pin crystal,Crystal,Y1 Y2,8M,Crystal_HC49-U_Vertical,2,~,,,,,,,,,,,,,,,,,,
+
+
+
+
+
+Component Groups:,49
+Component Count:,107
+Fitted Components:,104
+Number of PCBs:,1
+Total components:,104
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,2023-12-22 5:23:04 PM
+Schematic Source:,central_hub.kicad_sch
+KiCad Version:,Eeschema 7.0.7
