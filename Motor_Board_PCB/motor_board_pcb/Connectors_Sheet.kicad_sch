@@ -2361,6 +2361,9 @@
     (property "Voltage" "1kV" (at 85.09 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "FP" "0603" (at 90.17 130.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
     (pin "1" (uuid 3df61d95-2ec1-493b-9e91-0693a0ba178d))
     (pin "2" (uuid 1be29887-5ae0-4948-87ca-25934b20e1dc))
     (instances
@@ -2456,7 +2459,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 96.52 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid e0982aa1-69c5-4553-bd05-68a472b02534)
     (property "Reference" "R?" (at 99.06 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2469,6 +2472,9 @@
     )
     (property "Datasheet" "~" (at 96.52 127 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FP" "0603" (at 101.6 130.81 0)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid a0f10f5e-5329-4b32-90e0-07f88816de55))
     (pin "2" (uuid f8ce9466-3fe7-40bf-803d-0d45dc5fa9f0))
